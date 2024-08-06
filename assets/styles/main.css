@@ -19,7 +19,7 @@ html {
   }
 }
 :root {
-  --clr-neon: #e80d30;
+  --clr-neon: #c7213c;
   --clr-bg: #fff;
 }
 
@@ -28,6 +28,11 @@ html {
 *::after {
   box-sizing: border-box;
 }
+
+#main {
+  overflow-x: hidden;
+}
+
 .neon-button {
   font-size: 1.5rem;
   color: var(--clr-neon);
