@@ -1202,6 +1202,10 @@ ul li:before {
     display: inline-block;
   }
 
+  .sm\:w-4\/6 {
+    width: 66.666667%;
+  }
+
   .sm\:w-3\/6 {
     width: 50%;
   }
