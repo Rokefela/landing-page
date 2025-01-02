@@ -906,11 +906,6 @@ html {
   padding-bottom: 1.5rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -947,6 +942,10 @@ html {
 
 .pl-10 {
   padding-left: 2.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .pt-5 {
@@ -1292,7 +1291,18 @@ ul li:before {
   }
 }
 
+@media (min-width: 375px) {
+
+  .xs\:w-6\/12 {
+    width: 50%;
+  }
+}
+
 @media (min-width: 640px) {
+
+  .sm\:ml-24 {
+    margin-left: 6rem;
+  }
 
   .sm\:mr-auto {
     margin-right: auto;
@@ -1320,6 +1330,10 @@ ul li:before {
 
   .sm\:w-\[calc\(50\%-6px\)\] {
     width: calc(50% - 6px);
+  }
+
+  .sm\:w-20 {
+    width: 5rem;
   }
 
   .sm\:flex-row {
